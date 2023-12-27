@@ -1,11 +1,10 @@
-import About from "./components/About";
+// import About from "./components/About";
 import Alert from "./components/Alert";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
 import React,{useState} from 'react'
-import { BrowserRouter as Router, Route,Routes} from 'react-router-dom'
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function App() {
   const [mode,setMode]=useState('light')
@@ -39,29 +38,14 @@ function App() {
     
     <Navbar title="Vela" mode={mode} toggleMode={toggleMode}/>
     <Alert alert={alert}/>
-    <Router>
     <div className="container my-3">
-    <ul className="nav justify-content-end">
-            <li className="nav-item">
-              <Link to="/about" className="nav-link">
-                About
-              </Link>
-            </li>
-          </ul>
     
 
       {/* <TextForm heading="Enter Text:" mode={mode} showAlert={showAlert}/> */}
-      <Routes>
-        <Route path='about' element={<About/>} />
-        
-        <Route path='/' element={<TextForm heading="Enter Text:" mode={mode} showAlert={showAlert}/>} />
-        
-      </Routes>
-
+      <TextForm heading="Enter Text:" mode={mode} showAlert={showAlert}/>
       
     </div>
       {/* <About /> */}
-      </Router>
 
     </>
   );
