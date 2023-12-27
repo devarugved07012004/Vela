@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Vela/static/css/main.e6c13ad2.css",
-    "main.js": "/Vela/static/js/main.14ca5bde.js",
+    "main.js": "/Vela/static/js/main.7bee314d.js",
     "static/js/787.d4aba7ab.chunk.js": "/Vela/static/js/787.d4aba7ab.chunk.js",
     "index.html": "/Vela/index.html",
     "main.e6c13ad2.css.map": "/Vela/static/css/main.e6c13ad2.css.map",
-    "main.14ca5bde.js.map": "/Vela/static/js/main.14ca5bde.js.map",
+    "main.7bee314d.js.map": "/Vela/static/js/main.7bee314d.js.map",
     "787.d4aba7ab.chunk.js.map": "/Vela/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.14ca5bde.js"
+    "static/js/main.7bee314d.js"
   ]
 }
