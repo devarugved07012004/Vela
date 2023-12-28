@@ -19,7 +19,9 @@ export default function TextForm(props) {
   
   const handlebclick = () => {
     setIsBold(!isBold);
+    if(!isBold){
     props.showAlert("Converted to Bold Characters",'success')
+    }
   };
   
   // const textStyle = {
